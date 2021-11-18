@@ -1,25 +1,21 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Typography, Button } from 'antd';
+import 'antd/dist/antd.css';
+import Pngtree from './assets/img/Pngtree.png';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const {Title}=Typography;
+
+function App(){
+	return(
+		<div className="App">
+		 <br /> 
+		<h1>Opps... page no found!</h1>
+		<img src={Pngtree} />
+        </div>
+	);
+	
 }
 
 export default App;
