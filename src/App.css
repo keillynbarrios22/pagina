@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: #80008094;
+  background: #0096885e;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -13,12 +13,44 @@
   transform: translateX(-50%) translateY(-50%);
   font-family: cursive;
 }
+
 title{
   color: white;
 }
 
-
 img {
+  margin-left: 20px;
   width: 450px; height: 450px;
+  float: left;
 }
+h1,h2,h3{
+  color: white;
+}
+.raya {
+  border-left: 6px solid #009688b3;
+  height: 420px;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top:  60px;
+}
+.Descripcion{
+  margin-top: 100px ;
+  margin-right: 20px ;
+  float: right;
+  background: #18a9ffde;
+  text-shadow: 5px 5px #009688b3;
+  border: 3px solid #009688b3;
+  
+}
+
+.ant-btn-ghost:hover, .ant-btn-ghost:focus {
+    color: #ffffffb5;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+
+
+
 
