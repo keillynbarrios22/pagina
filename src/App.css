@@ -20,7 +20,8 @@ title{
 }
 
 img {
-  margin-left: 10px;
+  margin-top: 10%;
+  margin-left: 10%;
   width: 450px; height: 450px;
   float: left;
   animation: move-vector 3s linear infinite;
@@ -44,11 +45,11 @@ h1,h2,h3{
 }
 .raya {
   border-left: 6px solid #efe9e9;
-  height: 450px;
+  height: 75%;
   position: absolute;
   left: 45%;
   margin-left: -4px;
-  top:  60px;
+  top:  10%;
 }
 .Descripcion{
   margin-top: 15%;
