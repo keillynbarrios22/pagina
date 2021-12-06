@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Typography, Button } from 'antd';
 import 'antd/dist/antd.css';
-import imagenerror from './assets/img/imagenerror.png';
+import imgazul from './assets/img/imgazul.png';
 import { WarningOutlined } from '@ant-design/icons';
 import './App.css';
 
@@ -13,12 +13,11 @@ function App(){
 	return(
 		<div className="App">
 		 
-		<div className="raya"></div>
-		<img src={imagenerror} />
+		<img src={imgazul} />
 		<div className="Descripcion">
-		 		<h1>Ups..<br />La página no ha sido encontrada <WarningOutlined style={{fontSize: '40px', color: 'orange'}} /></h1>
-		 		<h3>Parece que ha habido un error con la página que estabas buscando.<br />
-		 		Es posible que la entrada alla sido eliminada o que la dirección no exista.</h3>
+		 		<h1>Ups..<br />Error al encontrar la página <WarningOutlined style={{fontSize: '40px', color: 'grey'}} /></h1>
+		 		<h3>Parece que ha habido un error con la página que estabas buscando, <br />
+		 		Es posible que la dirección no exista.</h3>
                 <br />
                 <br />
                 <br />
